@@ -13,4 +13,6 @@ int main() {
     }
     
     printf("A media do aluno e: %f ", somaNotas / 4);
+
+    return 0;
 }

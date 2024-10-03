@@ -16,4 +16,6 @@ int main() {
     }
 
     printf("A diferenca do valor entre os dois valores e: ", r);
+
+    return 0;
 }

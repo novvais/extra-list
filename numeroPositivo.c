@@ -11,4 +11,6 @@ int main() {
     }
 
     printf("O valor digite positivo e: ", n);
+
+    return 0;
 }
