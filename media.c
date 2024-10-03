@@ -1,16 +1,16 @@
 #include <stdio.h>
 
 int main() {
-    int notas[4], somaNotas = 0;
+    float notas[4], somaNotas = 0;
 
     for (int i = 0; i < 4; i++) {
-        printf("Digite o primeiro numero: ");
-        scanf(" %d", &notas[i]);
+        printf("Digite a %d nota: ", i + 1);
+        scanf(" %f", &notas[i]);
     }
     
     for (int i = 0; i < 4; i++) {
         somaNotas += notas[i];
     }
     
-    printf("A media do aluno e: %d ", somaNotas / 4);
+    printf("A media do aluno e: %f ", somaNotas / 4);
 }
